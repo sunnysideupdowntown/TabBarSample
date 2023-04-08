@@ -12,6 +12,7 @@
 		269CF43129E10E54008C9747 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269CF43029E10E54008C9747 /* ViewController.swift */; };
 		269CF43629E10E56008C9747 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 269CF43529E10E56008C9747 /* Assets.xcassets */; };
 		269CF43929E10E56008C9747 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 269CF43729E10E56008C9747 /* LaunchScreen.storyboard */; };
+		269CF44829E10F49008C9747 /* TabItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 269CF44729E10F49008C9747 /* TabItems.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		269CF43529E10E56008C9747 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		269CF43829E10E56008C9747 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		269CF43A29E10E56008C9747 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		269CF44729E10F49008C9747 /* TabItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItems.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +58,21 @@
 			children = (
 				269CF42C29E10E54008C9747 /* AppDelegate.swift */,
 				269CF42E29E10E54008C9747 /* SceneDelegate.swift */,
+				269CF44029E10ED6008C9747 /* Tab */,
 				269CF43029E10E54008C9747 /* ViewController.swift */,
 				269CF43529E10E56008C9747 /* Assets.xcassets */,
 				269CF43729E10E56008C9747 /* LaunchScreen.storyboard */,
 				269CF43A29E10E56008C9747 /* Info.plist */,
 			);
 			path = TabBarSample;
+			sourceTree = "<group>";
+		};
+		269CF44029E10ED6008C9747 /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+				269CF44729E10F49008C9747 /* TabItems.swift */,
+			);
+			path = Tab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,6 +147,7 @@
 			files = (
 				269CF43129E10E54008C9747 /* ViewController.swift in Sources */,
 				269CF42D29E10E54008C9747 /* AppDelegate.swift in Sources */,
+				269CF44829E10F49008C9747 /* TabItems.swift in Sources */,
 				269CF42F29E10E54008C9747 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
